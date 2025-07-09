@@ -10,7 +10,7 @@ This project analyzes the sentiment of stock-related news headlines and explores
 
 ## 📈 View the Interactive Report
 
-👉 [📘 Click here to view the Stock News Sentiment Analysis notebook](https://kanmeet.github.io/sentiment_analysis/stock_news_sentiment.html)
+👉 [📘 Click here to view the Stock News Sentiment Analysis notebook](https://kanmeet.github.io/Sentiment-Analysis-Stock-News/stock_news_sentiment.html)
 
 > ⚠️ Make sure the file `stock_news_sentiment.html` is uploaded to the root of the `main` branch and GitHub Pages is enabled for this repo under `Settings → Pages`.
 
