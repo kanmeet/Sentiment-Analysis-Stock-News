@@ -1,73 +1,40 @@
-📰 NLP Model for Stock News Sentiment Analysis
-This project applies Natural Language Processing (NLP) techniques to analyze sentiment in financial news headlines. By classifying headlines as positive, negative, or neutral, we gain insight into how public sentiment may influence stock market movements.
+📊 Stock News Sentiment Analysis
+This project aims to analyze the sentiment of financial news headlines and evaluate their correlation with stock market trends. Using natural language processing (NLP) techniques and sentiment scoring models, the analysis provides insights into how news sentiment impacts stock movements.
 
-🧠 Objective
-To build an NLP model that:
+📁 Project Structure
+up Stock_news_sentiment_analysis.html: An interactive HTML version of the Jupyter Notebook showcasing the full analysis and visualizations.
 
-Cleans and preprocesses stock-related news headlines
+📌 It includes:
 
-Applies sentiment analysis using VADER
+Data preprocessing steps
 
-Visualizes sentiment trends over time
+Sentiment analysis using VADER/TextBlob
 
-Supports investment insight with data-driven sentiment indicators
+Time-series sentiment visualization
 
-📦 Features
-🧹 Text preprocessing (lowercasing, punctuation removal, stopword filtering)
+Correlation with stock price movements
 
-💬 Sentiment scoring using VADER (Valence Aware Dictionary and sEntiment Reasoner)
+🚀 How to View
+Open the HTML file directly in a web browser:
 
-📊 Visualizations:
+Click here to view the notebook
 
-Sentiment distribution
 
-Time-series sentiment trends
+📦 Requirements (for Notebook Version)
+If you wish to run the notebook version locally:
 
-Top headlines by sentiment
+bash
+Copy
+Edit
+pip install pandas numpy matplotlib seaborn nltk yfinance
+📈 Use Cases
+Monitor public sentiment for stock market forecasting
 
-🛠️ Tools & Technologies
-Category	Tools Used
-Language	Python
-Data Handling	pandas, numpy
-NLP	nltk, vaderSentiment
-Visualization	matplotlib, seaborn, plotly
-Notebook Format	Jupyter Notebook (.ipynb), HTML export (.html)
+Evaluate impact of financial news on investor behavior
 
-📁 File Structure
-```
-├── NLP_Model_Stock_news_sentiment_analysis.ipynb   # Jupyter notebook
-├── Stock_news_sentiment_analysis.html              # Exported HTML version (viewable in browser)
-├── README.md
-```
+Create sentiment dashboards for portfolio decisions
 
-# Project documentation
-🚀 How to Use
-Clone the repository:
-git clone https://github.com/yourusername/stock-sentiment-analysis.git
-cd stock-sentiment-analysis
-
-Install required packages:
-pip install pandas numpy nltk vaderSentiment matplotlib seaborn plotly
-
-Run the notebook:
-Open NLP_Model_Stock_news_sentiment_analysis.ipynb in Jupyter Notebook or JupyterLab.
-
-🔮 Sample Output
-✅ Pie chart showing sentiment distribution
-
-📈 Line chart showing sentiment over time
-
-🗞️ Highlighted headlines tagged by sentiment polarity
-
-📌 Future Enhancements
-Integrate live news APIs (e.g., NewsAPI)
-
-Combine with stock price data for correlation analysis
-
-Deploy as a Streamlit app or web dashboard
-
-👩‍💻 Author
+👨‍💻 Author
 Anmeet Kaur
-PGP - AI & ML | Data Analyst | NLP Enthusiast
-🔗 LinkedIn | 🔗 GitHub
-
+Post Graduate in Artificial Intelligence and Machine Learning
+🔗 GitHub Profile
