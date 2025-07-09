@@ -1,40 +1,19 @@
-📊 Stock News Sentiment Analysis
-This project aims to analyze the sentiment of financial news headlines and evaluate their correlation with stock market trends. Using natural language processing (NLP) techniques and sentiment scoring models, the analysis provides insights into how news sentiment impacts stock movements.
+# 📊 Stock News Sentiment Analysis
 
-📁 Project Structure
-up Stock_news_sentiment_analysis.html: An interactive HTML version of the Jupyter Notebook showcasing the full analysis and visualizations.
+This project analyzes the sentiment of stock-related news headlines and explores their relationship with market movements using Natural Language Processing (NLP).
 
-📌 It includes:
+## 🔍 Features
+- Preprocessing of financial news headlines
+- Sentiment scoring using VADER/TextBlob
+- Time-based sentiment trends
+- Visual analysis of sentiment vs. stock prices
 
-Data preprocessing steps
+## 📈 View the Interactive Report
 
-Sentiment analysis using VADER/TextBlob
+👉 [📘 Click here to view the Stock News Sentiment Analysis notebook](https://kanmeet.github.io/sentiment_analysis/stock_news_sentiment.html)
 
-Time-series sentiment visualization
+> ⚠️ Make sure the file `stock_news_sentiment.html` is uploaded to the root of the `main` branch and GitHub Pages is enabled for this repo under `Settings → Pages`.
 
-Correlation with stock price movements
-
-🚀 How to View
-Open the HTML file directly in a web browser:
-
-Click here to view the notebook
-
-
-📦 Requirements (for Notebook Version)
-If you wish to run the notebook version locally:
-
-bash
-Copy
-Edit
+## 📦 Requirements (for local execution)
+```bash
 pip install pandas numpy matplotlib seaborn nltk yfinance
-📈 Use Cases
-Monitor public sentiment for stock market forecasting
-
-Evaluate impact of financial news on investor behavior
-
-Create sentiment dashboards for portfolio decisions
-
-👨‍💻 Author
-Anmeet Kaur
-Post Graduate in Artificial Intelligence and Machine Learning
-🔗 GitHub Profile
