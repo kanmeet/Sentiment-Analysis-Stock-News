@@ -12,8 +12,7 @@ This project analyzes the sentiment of stock-related news headlines and explores
 
 👉 [📘 Click here to view the Stock News Sentiment Analysis notebook](https://kanmeet.github.io/Sentiment-Analysis-Stock-News/stock_news_sentiment.html)
 
-> ⚠️ Make sure the file `stock_news_sentiment.html` is uploaded to the root of the `main` branch and GitHub Pages is enabled for this repo under `Settings → Pages`.
 
 ## 📦 Requirements (for local execution)
 ```bash
-pip install pandas numpy matplotlib seaborn nltk yfinance
+pip install pandas numpy matplotlib seaborn nltk
