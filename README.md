@@ -1,66 +1,73 @@
-📊 Stock News Sentiment Analysis
-This project performs sentiment analysis on financial news headlines to understand how public sentiment impacts stock movements. The aim is to assist investors and analysts in making data-driven decisions by combining Natural Language Processing (NLP) with stock trend analysis.
+📰 NLP Model for Stock News Sentiment Analysis
+This project applies Natural Language Processing (NLP) techniques to analyze sentiment in financial news headlines. By classifying headlines as positive, negative, or neutral, we gain insight into how public sentiment may influence stock market movements.
 
-🔍 Project Overview
-Goal: Analyze the sentiment of stock-related news articles.
+🧠 Objective
+To build an NLP model that:
 
-Techniques Used: NLP, VADER sentiment scoring, data visualization.
+Cleans and preprocesses stock-related news headlines
 
-Data Sources: News headlines tagged with timestamps.
+Applies sentiment analysis using VADER
 
-Output: Sentiment trend visualizations and correlation with stock movement.
+Visualizes sentiment trends over time
 
-🧰 Tools & Technologies
-Language: Python
+Supports investment insight with data-driven sentiment indicators
 
-Libraries:
+📦 Features
+🧹 Text preprocessing (lowercasing, punctuation removal, stopword filtering)
 
-pandas, numpy for data processing
+💬 Sentiment scoring using VADER (Valence Aware Dictionary and sEntiment Reasoner)
 
-nltk for Natural Language Processing
+📊 Visualizations:
 
-vaderSentiment for sentiment scoring
+Sentiment distribution
 
-matplotlib, seaborn for data visualization
+Time-series sentiment trends
 
-Plotly for interactive graphs
+Top headlines by sentiment
 
-Platform: Jupyter Notebook (exported as .html)
+🛠️ Tools & Technologies
+Category	Tools Used
+Language	Python
+Data Handling	pandas, numpy
+NLP	nltk, vaderSentiment
+Visualization	matplotlib, seaborn, plotly
+Notebook Format	Jupyter Notebook (.ipynb), HTML export (.html)
 
-📂 Project Structure
+📁 File Structure
 ```
-📁 Stock_News_Sentiment_Analysis/
-├── Stock_news_sentiment_analysis.html   # Exported HTML notebook
-├── data/                                # News data files (if applicable)
-├── images/                              # Output charts & graphs
-└── README.md                            # Project documentation
+├── NLP_Model_Stock_news_sentiment_analysis.ipynb   # Jupyter notebook
+├── Stock_news_sentiment_analysis.html              # Exported HTML version (viewable in browser)
+├── README.md
 ```
-🚀 How to Run
+
+# Project documentation
+🚀 How to Use
 Clone the repository:
-git clone https://github.com/kanmeet/Stock_News_Sentiment_Analysis.git
-cd Stock_News_Sentiment_Analysis
+git clone https://github.com/yourusername/stock-sentiment-analysis.git
+cd stock-sentiment-analysis
 
-Open the notebook:
-
-You can view the Stock_news_sentiment_analysis.html in any browser.
-
-Install required libraries (if re-running the notebook):
+Install required packages:
 pip install pandas numpy nltk vaderSentiment matplotlib seaborn plotly
 
-📈 Key Results
-Extracted and analyzed sentiment from hundreds of financial headlines.
+Run the notebook:
+Open NLP_Model_Stock_news_sentiment_analysis.ipynb in Jupyter Notebook or JupyterLab.
 
-Identified patterns and correlations between news sentiment and stock trends.
+🔮 Sample Output
+✅ Pie chart showing sentiment distribution
 
-Visualized the sentiment timeline, polarity distributions, and company-specific sentiment.
+📈 Line chart showing sentiment over time
 
-🧠 Future Work
-Integrate real-time news feeds using APIs (e.g., NewsAPI, FinancialModelingPrep).
+🗞️ Highlighted headlines tagged by sentiment polarity
 
-Correlate sentiment with actual stock price changes.
+📌 Future Enhancements
+Integrate live news APIs (e.g., NewsAPI)
 
-Deploy the model as a Streamlit app or Flask web dashboard.
+Combine with stock price data for correlation analysis
+
+Deploy as a Streamlit app or web dashboard
 
 👩‍💻 Author
 Anmeet Kaur
-PGP - AI & ML | Data Analyst | Aspiring AI Researcher
+PGP - AI & ML | Data Analyst | NLP Enthusiast
+🔗 LinkedIn | 🔗 GitHub
+
